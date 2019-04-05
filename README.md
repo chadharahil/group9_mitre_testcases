@@ -6,7 +6,7 @@ Following are the tests that group 9 was reponsible for-
 
 | Initial Access | Execution | Persistence | Privilege Escalation | Defense Evasion | Credential Access | Discovery | Lateral Movement | Collection | Exfiltration | Command and Control | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Trusted Relationship(https://github.com/chadharahil/group9_mitre_testcases/) | Windows Management Instrumentation |	Accessibility Features | Access Token Manipulation | Timestomp | Private Keys | Account Discovery | Windows Remote Management | Audio Capture | Scheduled Transfer | Standard Cryptographic Protocol |
+| [Trusted Relationship: T1199](https://github.com/chadharahil/group9_mitre_testcases/trusted_relationship_t1199 "Trusted Relationship: T1199") | Windows Management Instrumentation |	Accessibility Features | Access Token Manipulation | Timestomp | Private Keys | Account Discovery | Windows Remote Management | Audio Capture | Scheduled Transfer | Standard Cryptographic Protocol |
 | Valid Accounts | Windows Remote Management | Account Manipulation | Accessibility Features | Trusted Developer Utilities | | Application Window Discovery | | Automated Collection | | Standard Non-Application Layer Protocol |
 | | XSL Script Processing | AppCert DLLs | AppCert DLLs | Valid Accounts | | Browser Bookmark Discovery | | | | |				
 | | | | AppInit DLLs | Web Service | | | | | | |
