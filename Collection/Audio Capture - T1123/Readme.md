@@ -12,22 +12,22 @@ Assume that the victim device is already compromised, and able to download files
 
 <h1>Execution</h1>
 
-![alt text](https://github.com/iamSoruban/DPI911SSA-Project-Group9/blob/master/Discovery/Account%20Discovery%20-%20T1087/Bat%20File.png)
-*Figure 1: Sending the .bat file with the neccessary commands to execute*
+By using the SoundRecorder command we will be able to record audio and save it, by using /FILE <outputFile> name we can sepcify the output file, and by using /DURATION <time>, we can record it with the time limit.
 
-After creating a bat file that contains necessary commands to discover important information on the systems about accounts, we will be sending the file to the victim and execute it.
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Collection/Audio%20Capture%20-%20T1123/Screenshots/Recording%20CMD.png)
+*Figure 1: Using the Command prompt to record the Audio for 30 seconds - 1*
 
-![alt text](https://github.com/iamSoruban/DPI911SSA-Project-Group9/blob/master/Discovery/Account%20Discovery%20-%20T1087/Download%20and%20Execute.png)
-*Figure 2: Downloading and executing*
+
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Collection/Audio%20Capture%20-%20T1123/Screenshots/Recording%20Audio.png)
+*Figure 2: Using the Command prompt to record the Audio for 30 seconds - 2*
 
 <h1>Detection</h1>
 
-To confirm this, we can use Splunk to analyze.
+Using Splunk to analyze: 
 
 Using Splunk to detect the indicators
-![alt text](https://github.com/iamSoruban/DPI911SSA-Project-Group9/blob/master/Discovery/Account%20Discovery%20-%20T1087/Splunk-1.png)
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Collection/Audio%20Capture%20-%20T1123/Screenshots/Splunk-1.png)
 *Figure 3: Splunk Indicator detection*
 
-Using Splunk to detect the indicators
-![alt text](https://github.com/iamSoruban/DPI911SSA-Project-Group9/blob/master/Discovery/Account%20Discovery%20-%20T1087/Splunk-2.png)
-*Figure 4: Splunk Indicator detection*
+As we can see, in Splunk sound recorder is process is created.
+By using this as filter, we can trigger an alert, when the SoundRecorder process starts.
