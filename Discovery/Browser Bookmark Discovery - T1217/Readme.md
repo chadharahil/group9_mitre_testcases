@@ -1,6 +1,6 @@
 <h1>Technique Description</h1>
 <h2>T1217 - Browser Bookmark Discovery</h2>
-<h2><a href="https://attack.mitre.org/techniques/T1087/">Description from ATT&CK</a></h2>
+<h2><a href="https://attack.mitre.org/techniques/T1217/">Description from ATT&CK</a></h2>
 <blockquote>
 Adversaries may enumerate browser bookmarks to learn more about compromised hosts. Browser bookmarks may reveal personal information about users (ex: banking sites, interests, social media, etc.) as well as details about internal network resources such as servers, tools/dashboards, or other related infrastructure.
 </blockquote>
