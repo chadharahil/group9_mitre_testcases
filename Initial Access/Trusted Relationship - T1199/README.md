@@ -8,10 +8,10 @@
 # Execution
 This technique did not have a red atomic module
 
-**Test 1 - WMIC bypass using local XSL file:**
+**Test 1 -**
 ![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
-**Test 2 - WMIC bypass using remote XSL file:**
+**Test 2 -**
 ![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection

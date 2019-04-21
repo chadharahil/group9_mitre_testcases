@@ -6,22 +6,25 @@
 # Assumption
 
 # Execution
-The Atomic-Red-Team T1089 module describes the test for this technique (https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1107/T1107.md)
+The Atomic-Red-Team T1047 module describes the test for this technique: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md
 
-**Test 1 - WMIC bypass using local XSL file:**
-![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
+**Test 1 - WMI Reconnaissance Users:**
+![alt text](./Screenshots/WMI%20Reconnaissance%20Users.JPG)
 
-**Test 2 - WMIC bypass using remote XSL file:**
-![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
+**Test 2 - WMI Reconnaissance Processes:**
+![alt text](./Screenshots/WMI%20Reconnaissance%20Processes.JPG)
+
+**Test 3 - WMI Reconnaissance Software:**
+![alt text](./Screenshots/WMI%20Reconnaissance%20Software.JPG)
+
+**Test 4 - WMI Reconnaissance List Remote Services:**
+![alt text](./Screenshots/WMI%20Reconnaissance%20List%20Remote%20Services.JPG)
 
 # Detection
 Detection is done by monitoring processes, command line arguments ("wmic") and network traffic for WMI connections; the use of WMI in environments that do not typically use WMI may be suspect.
 
-## Splunk Filter
-The following splunk query will allow us to detect these techniques
+**Detection 1 - Local "wmic" Process Creation**
+![alt text](./Screenshots/local_processcreate.JPG)
 
-**Filter 1 -**
-![alt text]()
-
-**Filter 2 -**
-![alt text]()
+**Detection 2 - Remote "wmic.exe" Network Connection**
+![alt text](./Screenshots/remote_networkconnection.JPG)
