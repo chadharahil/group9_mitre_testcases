@@ -6,22 +6,22 @@
 # Assumption
 
 # Execution
-This technique did not have a red atomic module
+The Atomic-Red-Team T1089 module describes the test for this technique (https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1107/T1107.md)
 
-Test 1 - 
-![alt text]()
+**Test 1 - WMIC bypass using local XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
-Test 2 - 
-![alt text]()
+**Test 2 - WMIC bypass using remote XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
-Detection is done by monitoring use of WinRM within an environment by tracking service execution. If it is not normally used or is disabled, then this may be an indicator of suspicious behavior. Monitor processes created and actions taken by the WinRM process or a WinRM invoked script to correlate it with other related events.
+Detection is done by monitoring processes to discover use of WinRM within an environment by tracking service execution. If it is not normally used or is disabled, then this may be an indicator of suspicious behavior. Monitor processes created and actions taken by the WinRM process or a WinRM invoked script to correlate it with other related events.
 
 ## Splunk Filter
 The following splunk query will allow us to detect these techniques
 
-Filter 1 - 
+**Filter 1 -**
 ![alt text]()
 
-Filter 2 - 
+**Filter 2 -**
 ![alt text]()

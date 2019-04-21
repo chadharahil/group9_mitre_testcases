@@ -8,20 +8,20 @@
 # Execution
 This technique did not have a red atomic module
 
-Test 1 - 
-![alt text]()
+**Test 1 - WMIC bypass using local XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
-Test 2 - 
-![alt text]()
+**Test 2 - WMIC bypass using remote XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
-Detection is done by monitoring processes and command line arguments.
+Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services. Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access). Perform regular audits of domain and local system accounts to detect accounts that may have been created by an adversary for persistence.
 
 ## Splunk Filter
 The following splunk query will allow us to detect these techniques
 
-Filter 1 - 
+**Filter 1 -**
 ![alt text]()
 
-Filter 2 - 
+**Filter 2 -**
 ![alt text]()

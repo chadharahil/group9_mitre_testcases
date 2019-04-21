@@ -8,10 +8,10 @@
 # Execution
 The Atomic-Red-Team T1220 module describes the test for this technique (https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md)
 
-Test 1 - WMIC bypass using local XSL file
+**Test 1 - WMIC bypass using local XSL file:**
 ![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
-Test 2 - WMIC bypass using remote XSL file
+**Test 2 - WMIC bypass using remote XSL file:**
 ![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
@@ -22,8 +22,8 @@ The presence of msxsl.exe or other utilities that enable proxy execution that ar
 ## Splunk Filter
 The following splunk query will allow us to detect these techniques
 
-Filter 1 - 
+**Filter 1 -**
 ![alt text]()
 
-Filter 2 - 
+**Filter 2 -**
 ![alt text]()

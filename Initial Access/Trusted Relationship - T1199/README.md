@@ -8,20 +8,20 @@
 # Execution
 This technique did not have a red atomic module
 
-Test 1 - 
-![alt text]()
+**Test 1 - WMIC bypass using local XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
-Test 2 - 
-![alt text]()
+**Test 2 - WMIC bypass using remote XSL file:**
+![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
-Detection is done by monitoring processes and command line arguments.
+Establish monitoring for activity conducted by second and third party providers and other trusted entities that may be leveraged as a means to gain access to the network. Depending on the type of relationship, an adversary may have access to significant amounts of information about the target before conducting an operation, especially if the trusted relationship is based on IT services. Adversaries may be able to act quickly towards an objective, so proper monitoring for behavior related to Credential Access, Lateral Movement, and Collection will be important to detect the intrusion.
 
 ## Splunk Filter
 The following splunk query will allow us to detect these techniques
 
-Filter 1 - 
+**Filter 1 -**
 ![alt text]()
 
-Filter 2 - 
+**Filter 2 -**
 ![alt text]()
