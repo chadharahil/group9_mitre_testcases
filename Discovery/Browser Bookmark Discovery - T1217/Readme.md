@@ -13,22 +13,22 @@ From the Redcanary we dont see any stpes to product Bookmarks Discovery on Windo
 By executing that, we were able to get the Bookmark fil.
 
 
-![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/No%20Bookmark.PNG)
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Screenshots/No%20Bookmark.PNG)
 *Figure 1: SeAs we can see, there is no method provided for Bookmark Discovery in Windows*
 
 
 
-![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Bat%20file.png)
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Screenshots/Bat%20file.png)
 *Figure 2: Bat file*
 
-![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Reading.png)
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Screenshots/Reading.png)
 *Figure 3: Reading the Bookmark File*
 
 
 <h1>Detection</h1>
 
 Even though, this does the same job, however it doesnt show as much as visiblity, compare to the Linux and Mac
-![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Splunk-2019-04-21-08-59-40.png)
+![alt text](https://github.com/chadharahil/group9_mitre_testcases/blob/master/Discovery/Screenshots/Splunk-2019-04-21-08-59-40.png)
 *Figure 4: Splunk Indicator detection*
 
 
