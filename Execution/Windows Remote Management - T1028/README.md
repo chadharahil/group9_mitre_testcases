@@ -1,7 +1,7 @@
 # Technique Description
-## T1199 - Trusted Relationship
-## [Description from ATT&CK](https://attack.mitre.org/techniques/T1199) 
->Adversaries may breach or otherwise leverage organizations who have access to intended victims. Access through trusted third party relationship exploits an existing connection that may not be protected or receives less scrutiny than standard mechanisms of gaining access to a network. Organizations often grant elevated access to second or third-party external providers in order to allow them to manage internal systems. Some examples of these relationships include IT services contractors, managed security providers, infrastructure contractors (e.g. HVAC, elevators, physical security). The third-party provider's access may be intended to be limited to the infrastructure being maintained, but may exist on the same network as the rest of the enterprise. As such, Valid Accounts used by the other party for access to internal network systems may be compromised and used.
+## T1028 - Windows Remote Management
+## [Description from ATT&CK](https://attack.mitre.org/techniques/T1028) 
+>Windows Remote Management (WinRM) is the name of both a Windows service and a protocol that allows a user to interact with a remote system (e.g., run an executable, modify the Registry, modify services). It may be called with the winrm command or by any number of programs such as PowerShell. 
 
 # Assumption
 
@@ -15,7 +15,7 @@ Test 2 -
 ![alt text]()
 
 # Detection
-Detection is done by monitoring processes and command line arguments.
+Detection is done by monitoring use of WinRM within an environment by tracking service execution. If it is not normally used or is disabled, then this may be an indicator of suspicious behavior. Monitor processes created and actions taken by the WinRM process or a WinRM invoked script to correlate it with other related events.
 
 ## Splunk Filter
 The following splunk query will allow us to detect these techniques
