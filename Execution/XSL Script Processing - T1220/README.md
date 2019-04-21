@@ -9,10 +9,10 @@
 The Atomic-Red-Team T1220 module describes the test for this technique (https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md)
 
 Test 1 - WMIC bypass using local XSL file
-![alt text](../screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
+![alt text](./screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
 Test 2 - WMIC bypass using remote XSL file
-![alt text](../screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
+![alt text](./screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
 Detection is done by monitoring processes to discover the execution and arguments of msxsl.exe and wmic.exe. Compare recent invocations of these utilities with prior history of known good arguments and loaded files to determine anomalous and potentially adversarial activity (ex: URL command line arguments, creation of external network connections, loading of DLLs associated with scripting). Command arguments used before and after the script invocation may also be useful in determining the origin and purpose of the payload being loaded.
