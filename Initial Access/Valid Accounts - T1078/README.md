@@ -10,8 +10,12 @@ We are assuming in this scenario that the machine has already been compromised b
 This technique did not have a red atomic module
 
 **Test 1 -**
+
+Here is our use of Caldera in creating a valid account remotely using the RAT. 
+
 ![alt text](./Valid1.png)
 
+Here is the valid account created on the victim machine.
 
 ![alt text](./Valid2.png)
 
