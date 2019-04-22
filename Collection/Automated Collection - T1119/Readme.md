@@ -1,5 +1,5 @@
 # Technique Description
-## T1078 - Valid Accounts
+## T1119 - Automated Collection
 ## [Description from ATT&CK](https://attack.mitre.org/techniques/T1119/) 
 Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of Scripting to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. This functionality could also be built into remote access tools.
 
