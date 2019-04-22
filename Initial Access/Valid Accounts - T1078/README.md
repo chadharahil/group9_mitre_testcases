@@ -26,7 +26,7 @@ Configure robust, consistent account activity audit policies across the enterpri
 The following splunk query will allow us to detect these techniques
 
 **Filter 1 -**
-![alt text]()
 
-**Filter 2 -**
-![alt text]()
+![alt text](./Valid3.png)
+
+
