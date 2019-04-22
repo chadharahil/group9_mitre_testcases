@@ -10,10 +10,10 @@ We are assuming in this scenario that the machine has already been compromised b
 This technique did not have a red atomic module
 
 **Test 1 -**
-![alt text](./Valid1)
+![alt text](./Valid1.png)
 
 
-![alt text](./Valid2)
+![alt text](./Valid2.png)
 
 # Detection
 Configure robust, consistent account activity audit policies across the enterprise and with externally accessible services. Look for suspicious account behavior across systems that share accounts, either user, admin, or service accounts. Activity may be from interactive login sessions or process ownership from accounts being used to execute binaries on a remote system as a particular account. Correlate other security systems with login information (e.g., a user has an active login session but has not entered the building or does not have VPN access). Perform regular audits of domain and local system accounts to detect accounts that may have been created by an adversary for persistence.
