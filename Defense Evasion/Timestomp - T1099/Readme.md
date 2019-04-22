@@ -15,9 +15,15 @@ Here is our use of Caldera in creating a valid account remotely using the RAT.
 
 ![alt text](./Time1.png)
 
-Here is the valid account created on the victim machine.
 
-![alt text](./Valid2.png)
+
+![alt text](./Time2.png)
+
+
+
+![alt text](./Time3.png)
+
+
 
 # Detection
 Forensic techniques exist to detect aspects of files that have had their timestamps modified. It may be possible to detect timestomping using file modification monitoring that collects information on file handle opens and can compare timestamp values.
