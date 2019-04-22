@@ -12,7 +12,7 @@ This technique did not have a red atomic module
 **Test 1 -**
 
 
-![alt text](./Trusted%20Relationship%20-%20T1199/Trusted1.png)
+![alt text](./Trusted1.png)
 
 **Test 2 -**
 
