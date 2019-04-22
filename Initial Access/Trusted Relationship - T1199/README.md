@@ -10,9 +10,12 @@ For this scenario, we established a webserver located at 192.168.2.5 running apa
 This technique did not have a red atomic module
 
 **Test 1 -**
+Initial Access/Trusted Relationship - T1199/Trusted1.png
+
 ![alt text](./Screenshots/WMIC%20bypass%20using%20local%20XSL%20file.JPG)
 
 **Test 2 -**
+Initial Access/Trusted Relationship - T1199/Trusted2.png
 ![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
 
 # Detection
