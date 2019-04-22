@@ -11,14 +11,15 @@ This attack was executed using a reverse tcp meterpreter session which contains 
 
 **Test 1 -**
 
-Here is our use of Caldera in creating a valid account remotely using the RAT. 
+Here is our use of Caldera in creating a reverse netcat session using the rat.
 
 ![alt text](./Time1.png)
 
-
+Here is the evidence of the timestomped files.
 
 ![alt text](./Time2.png)
 
+Here is further timestomping using Caldera.
 
 
 ![alt text](./Time3.png)
