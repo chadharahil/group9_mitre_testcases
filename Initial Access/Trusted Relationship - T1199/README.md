@@ -10,13 +10,12 @@ For this scenario, we established a webserver located at 192.168.2.5 running apa
 This technique did not have a red atomic module
 
 **Test 1 -**
-
+In this screenshot, we show the trusted relationship that has been established with a compromised third party. The Caledera RAT named OfficeUpdater.exe has been uploaded to the web server and then instructed to all users to download.
 
 ![alt text](./Trusted1.png)
 
-**Test 2 -**
 
-![alt text](./Screenshots/WMIC%20bypass%20using%20remote%20XSL%20file.JPG)
+![alt text](./Trusted2.png)
 
 # Detection
 Establish monitoring for activity conducted by second and third party providers and other trusted entities that may be leveraged as a means to gain access to the network. Depending on the type of relationship, an adversary may have access to significant amounts of information about the target before conducting an operation, especially if the trusted relationship is based on IT services. Adversaries may be able to act quickly towards an objective, so proper monitoring for behavior related to Credential Access, Lateral Movement, and Collection will be important to detect the intrusion.
