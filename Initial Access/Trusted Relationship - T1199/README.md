@@ -14,7 +14,7 @@ In this screenshot, we show the trusted relationship that has been established w
 
 ![alt text](./Trusted1.png)
 
-
+In this second screenshot you can see that the connection with the RAT has been established and that the beginning steps of compromise are complete.
 ![alt text](./Trusted2.png)
 
 # Detection
@@ -24,7 +24,7 @@ Establish monitoring for activity conducted by second and third party providers 
 The following splunk query will allow us to detect these techniques
 
 **Filter 1 -**
-![alt text]()
+![alt text](./Trusted3.png)
 
 **Filter 2 -**
-![alt text]()
+![alt text](./Trusted4.png)
